@@ -1,0 +1,6 @@
+{
+  "project_name": "python-template",
+  "package_description": "Python template for Cookiecutter",
+  "python_version": "^3.8",
+  "package_name": "{{cookiecutter.project_name.lower().replace('-', '_')}}"
+}
