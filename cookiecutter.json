@@ -1,5 +1,6 @@
 {
-  "project_name": "python-template",
+  "dir_name": "python-template",
+  "project_name": "{{cookiecutter.dir_name}}",
   "package_description": "Python template for Cookiecutter",
   "python_version": "^3.8",
   "package_name": "{{cookiecutter.project_name.lower().replace('-', '_')}}"
